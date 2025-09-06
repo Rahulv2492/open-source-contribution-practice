@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Registration Form by Ashutosh</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Registration</legend>
+            <form action="https://httpbin.org/post" method="post">
+                <label for="fullname">Full Name</label><br>
+                <input type="text" name="fullname" id="fullname" required placeholder="enter your full name" title="full name">
+
+                <br><br>
+
+                <label for="email">E-mail</label><br>
+                <input type="text" name="email" id="email" required placeholder="enter your email" title="password">
+
+                <br><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" required placeholder="create a password" maxlength="6">
+
+                <br><br>
+
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="" placeholder="enter your age" min="13" title="age">
+
+                <br><br>
+
+                 <label>Gender</label><br>
+                <input type="radio" name="gender" id="male" title="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" title="female" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="other" title="other" value="other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <label>Skills</label><br>
+                <input type="checkbox" name="skills" id="html" title="html" value="html" checked>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="skills" id="css" title="css" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="skills" id="js" title="javascript" value="javascript">
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="skills" id="py" title="python" value="python">
+                <label for="py">Python</label>
+
+                <br><br>
+
+                <label for="country">Country</label><br>
+                <select name="country" id="country" title="country" required>
+                    <option value="">--select--</option>
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                    <option value="England">England</option>
+                    <option value="China">China</option>
+                </select>
+                
+                <br><br>
+                
+                <label for="me">About me</label><br>
+                <textarea name="about me" id="me" rows="6" placeholder="please write about yourself" title="about me"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Accept our Terms & Conditions</label>
+
+                <br><br>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>
+        </fieldset>
+    </body>
